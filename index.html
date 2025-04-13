@@ -51,7 +51,7 @@
       formData.append('file', fileInput.files[0]);
 
       try {
-        const response = await fetch("https://26f1-34-31-45-184.ngrok-free.app//", {
+        const response = await fetch("https://26f1-34-31-45-184.ngrok-free.app/predict", {
           method: "POST",
           body: formData
         });
